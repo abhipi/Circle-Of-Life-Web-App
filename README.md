@@ -1,2 +1,2 @@
 # Circle-Of-life-Web-App
-PHP | JS | HTML-5 |CSS | SQL
+PHP | JS | HTML-5 | CSS | SQL
