@@ -1,0 +1,389 @@
+body {
+    overflow: hidden;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: lighter;
+    background-image: url("../images/bgg.png") !important;
+    
+    background-size: cover !important; 
+    
+}
+
+.container {    
+    
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+ul .top {
+    list-style-type: none;
+    float: inline;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.inbox_people {
+    background: #f8f8f8 none repeat scroll 0 0;
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    border-right: 1px solid #c4c4c4;
+}
+
+.screen{
+    width: 100%;
+    max-height: 120%;
+}
+
+.inbox_msg {
+    border: 1px solid #c4c4c4;
+    clear: both;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.top_spac {
+    margin: 20px 0 0;
+}
+
+.recent_heading {
+    float: left;
+    width: 80%;
+    
+}
+
+/*.srch_bar {
+    display: inline-block;
+    text-align: right;
+    width: 20%;
+    padding: 3px;
+}*/
+
+.headind_srch {
+    padding: 10px 20px 10px 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #c4c4c4;
+    width:100%;
+}
+
+.recent_heading h4 {
+    color: #05728f;
+    font-size: 21px;
+    margin: auto;
+    
+}
+
+.srch_bar input {
+    border: 1px solid #cdcdcd;
+    border-width: 0 0 1px 0;
+    width: 80%;
+    padding: 2px 0 4px 6px;
+    background: none;
+}
+
+.srch_bar .input-group-addon button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    padding: 0;
+    color: #707070;
+    font-size: 18px;
+}
+
+.srch_bar .input-group-addon {
+    margin: 0 0 0 -27px;
+}
+
+.chat_ib h5 {
+    font-size: 15px;
+    color: #464646;
+    margin: 0 0 8px 0;
+}
+
+.chat_ib h5 span {
+    font-size: 13px;
+    float: right;
+}
+
+.chat_ib p {
+    font-size: 14px;
+    color: #989898;
+    margin: auto
+}
+
+.chat_img {
+    float: left;
+    width: 11%;
+}
+
+.chat_ib {
+    float: left;
+    padding: 0 0 0 15px;
+    width: 88%;
+}
+
+.chat_people {
+    overflow: hidden;
+    clear: both;
+}
+
+.chat_list {
+    border-bottom: 1px solid #c4c4c4;
+    margin: 0;
+    padding: 18px 16px 10px;
+}
+
+.inbox_chat {
+    height: 1000px;
+    overflow-y: auto;
+}
+
+.active_chat {
+    background: #ebebeb;
+}
+
+.incoming_msg_img {
+    display: inline-block;
+    width: 6%;
+}
+
+.received_msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+
+.received_withd_msg p {
+    background: #ebebeb none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #646464;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+    
+}
+
+.time_date {
+    color: #747474;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+
+.received_withd_msg {
+    width: 57%;
+}
+
+.mesgs {
+    float: left;
+    padding: 30px 15px 0 25px;
+    width: 60%;
+}
+
+.sent_msg p {
+    background: #05728f none repeat scroll 0 0;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.outgoing_msg {
+    overflow: hidden;
+    margin: 26px 0 26px;
+}
+
+.sent_msg {
+    float: right;
+    width: 46%;
+}
+
+.input_msg_write input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    font-size: 0.5cm;
+    min-height: 48px;
+    width: 100%;
+    font-family:Quicksand;
+}
+::placeholder{
+    color:white;
+}
+.type_msg {
+    border-top: 1px solid #c4c4c4;
+    position: relative;
+}
+
+.msg_send_btn {
+    background: #007596a2 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 33px;
+}
+
+.messaging {
+    padding: 0 0 50px 0;
+}
+
+.msg_history {
+    height: 850px;
+    overflow-y: auto;
+}
+
+.nav-section{
+      
+    width: 100%;
+    height: 2.5cm;
+   position: fixed;
+   background-color: transparent;
+   background-size: cover;
+   align-items: right;
+   padding-left: 26.3cm;
+
+
+}
+nav ul{
+width: 900px;
+align-self: right;
+float:right;
+background-color:transparent;
+text-align: right;
+border-radius: 70px;
+} 
+nav ul li{
+
+list-style: none;
+display: inline-block;
+
+
+}
+nav ul li a{
+
+  display: block;
+  border-radius: 70px;
+  text-decoration: none;
+  padding: 30px 60px;
+  font-size: 20px;
+  font-weight: 300;
+  transition: background-color 0.5s ease;
+  transition: font-size 0.5s ease;
+
+
+}
+nav ul li a:hover{
+   background-color:   #1aace127;
+   color: white;
+   text-decoration: none;
+   font-size: 16pt;
+   
+
+
+
+}
+nav ul li a:visited{
+  
+  color: white;
+  text-decoration: none;
+  font-size: 15pt;
+
+}
+nav ul li a:active{
+  
+  color: white;
+  text-decoration: none;
+  font-size: 15pt;
+  
+}
+.im{
+
+widows: 2cm;;
+height: 2cm;
+position: absolute;
+left: 2cm;
+top: 0.3cm;
+animation-name: fadein;
+animation-duration: 3s;
+opacity: 0.8;
+
+
+}@keyframes fadein{
+from{ opacity: 0;}
+to {opacity: 0.8;}
+
+
+}
+h3{
+    font-size: 80pt;
+animation-name: fade;
+animation-duration: 2s;
+color:white;
+
+  
+  
+  }
+  @keyframes fade{
+  
+    from { color: transparent;  } 
+    to {color: white;}
+  }
+  
+  .company{
+    display: inline;
+    font-size: 40px;
+    position: absolute;
+    top: 0.1cm;
+    left:4.5cm;
+    color: white;
+    
+    animation-name: fadetxt;
+    animation-duration: 3s;
+    }@keyframes fadetxt{
+        from{ opacity: 0;}
+        to {opacity: 1;}
+        
+        
+    }
+    .write_msg{
+        border-color:white;
+        outline:white;
+    }    
+    .write_msg:focus{
+        border-color: white;
+    outline: white;
+    
+    }
+ 

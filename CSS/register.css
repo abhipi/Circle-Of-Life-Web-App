@@ -1,0 +1,204 @@
+body{
+
+    
+    font-style: normal;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: lighter;
+    background-image: url("../images/bgg.png") !important;
+       
+    background-size: cover !important; 
+    
+    
+    }
+    h3{
+        font-size: 80pt;
+    animation-name: fade;
+    animation-duration: 2s;
+    color:white;
+    
+      
+      
+      }
+      @keyframes fade{
+      
+        from { color: transparent;  } 
+        to {color: white;}
+      }
+      .pass{
+      
+        color: white;
+         font-size: 15pt;
+         animation-name: fade2;
+        margin-left: 3.75cm;
+    animation-duration: 2s;}@keyframes fade2{
+    
+        from { color: transparent;  } 
+        to {color: white;}
+    }
+    .not{
+        color: whitesmoke;
+        font-size: 15pt;
+        animation-name: fade3;
+      
+    animation-duration: 2s;}@keyframes fade3{
+    
+       from { color: transparent;  } 
+       to {color: whitesmoke;}
+    }
+    a{
+        color: whitesmoke;
+        font-size: 15pt;
+        animation-name: fade4;
+      
+    animation-duration: 2s;}@keyframes fade4{
+    
+       from { color: transparent;  } 
+       to {color: whitesmoke;}
+    }
+    a:hover{
+        color: white;
+           text-decoration: none;
+    }
+    .button{
+        align-self: center;
+        background-color : #1aace188;
+        color: white;
+        font-size: 15pt; 
+        border-radius: 30pt 30pt 30pt 30pt;
+        width: 7cm;
+        border-color: transparent;
+        height: 1.25cm;
+        align-content: center;
+         animation-name: fade5;
+         animation-duration: 2s;
+         transition-duration: 0.4s;
+         
+        }@keyframes fade5{
+    
+            from { color: transparent; background-color: transparent;} 
+            to{ color: white; background-color:#1aace188;}
+            
+        }
+        .user{color:white;
+            font-size: 15pt;
+            animation-name: fadee;
+            margin-left: 3.75cm;
+        animation-duration: 2s;}@keyframes fadee{
+        
+           from { color: transparent;  } 
+           to {color: white;}
+        }
+        .form-control{
+            background-color: transparent;
+            border-radius: 10pt;
+            border-color:  #1aace188;
+            color: white;
+            
+            width: 75%;
+            height: 1.5cm;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 0.6cm;
+            animation-name: fade10;
+            animation-duration: 2s;
+        
+        }@keyframes fade10{
+        
+            from { border-color: transparent;}
+            to {border-color: #1aace188;} 
+            
+         }
+         .form-control:focus{
+            border-color:white;
+            box-shadow:0 0 10px white;
+           }
+
+         .button:hover {
+            background-color: #1aace1d8; /* Green */
+            color: white;
+          }
+        .nav-section{
+      
+            width: 100%;
+            height: 2.5cm;
+           position: fixed;
+           background-color: transparent;
+           background-size: cover;
+           align-items: right;
+           padding-left: 26.3cm;
+          
+      
+        }
+        nav ul{
+       width: 900px;
+       align-self: flex-start;
+       
+       background-color:transparent;
+       text-align: right;
+       border-radius: 70px;
+        } 
+        nav ul li{
+      
+       list-style: none;
+      display: inline-block;
+      
+      
+        }
+       nav ul li a{
+      
+          display: block;
+          border-radius: 70px;
+          text-decoration: none;
+          padding: 30px 60px;
+          font-size: 20px;
+          font-weight: 300;
+          transition: background-color 0.5s ease;
+          transition: font-size 0.5s ease;
+      
+      
+       }
+       nav ul li a:hover{
+           background-color:   #1aace127;
+           color: white;
+           text-decoration: none;
+           font-size: 16pt;
+           
+      
+      
+      
+       }
+       nav ul li a:visited{
+          
+          color: white;
+          text-decoration: none;
+          font-size: 15pt;
+      
+       }
+       nav ul li a:active{
+          
+          color: white;
+          text-decoration: none;
+          font-size: 15pt;
+       }
+       img{
+
+        widows: 2cm;;
+        height: 2cm;
+        position: absolute;
+        left: 2cm;
+        top: 0.3cm;
+        animation-name: fadein;
+animation-duration: 3s;
+opacity: 0.8;
+
+
+ }@keyframes fadein{
+    from{ opacity: 0;}
+    to {opacity: 0.8;}
+
+
+ }
+    
+        
+        
+         
+       

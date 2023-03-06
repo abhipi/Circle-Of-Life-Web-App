@@ -1,0 +1,260 @@
+body{font-style: normal;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: lighter;
+    background-image: url("../images/bgg.png")!important;
+      background-size: cover !important; 
+}
+a{
+    color: white;
+    font-size: 15pt;
+    animation-name: fade4;
+  
+animation-duration: 2s;}@keyframes fade4{
+
+   from { color: transparent;  } 
+   to {color: white;}
+
+}
+.nav-section{
+      
+    width: 100%;
+    height: 2.5cm;
+   position: fixed;
+   background-color: transparent;
+   background-size: cover;
+   align-items: right;
+   padding-left: 26.3cm;
+  
+
+}
+nav ul{
+width: 900px;
+align-self: flex-start;
+
+background-color:transparent;
+text-align: right;
+border-radius: 70px;
+} 
+nav ul li{
+
+list-style: none;
+display: inline-block;
+
+
+}
+nav ul li a{
+
+  display: block;
+  border-radius: 70px;
+  text-decoration: none;
+  padding: 30px 60px;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  transition: background-color 0.5s ease;
+  transition: font-size 0.5s ease;
+
+
+}
+nav ul li a:hover{
+   background-color:   #1aace127;
+   color: white;
+   text-decoration: none;
+   font-size: 16pt;
+   
+
+
+
+}
+nav ul li a:visited{
+  
+  color: white;
+  text-decoration: none;
+  font-size: 15pt;
+
+}
+nav ul li a:active{
+  
+  color: white;
+  text-decoration: none;
+  font-size: 15pt;
+}
+img{
+
+width: 2cm;;
+height: 2cm;
+position: absolute;
+left: 2cm;
+top: 0.3cm;
+animation-name: fadein;
+animation-duration: 3s;
+opacity: 0.8;
+
+
+}@keyframes fadein{
+from{ opacity: 0;}
+to {opacity: 0.8;}
+
+
+}
+.company{
+
+font-size: 40px;
+position: absolute;
+top: 0.1cm;
+left:4.5cm;
+color: white;
+
+animation-name: fadetxt;
+animation-duration: 3s;
+}@keyframes fadetxt{
+    from{ opacity: 0;}
+    to {opacity: 0.8;}
+    
+    
+    }
+    .imagestuff{
+width: 100%;
+height: 20cm;
+
+
+    }
+       
+    .im{
+
+      width: 13cm;;
+      height: 13cm;
+      left: 18.8cm;
+      top: 5cm;
+      opacity: 1;
+      animation-name: fadex;
+      animation-duration: 3s;
+      opacity: 1;}@keyframes fadex{
+              from{ opacity: 0;}
+              to {opacity: 1;}
+              
+      }
+              .circle{
+                  position: absolute;
+                  opacity: 1;
+                  left: 16.8cm;
+                  top: 18cm;
+                  color: white;
+                  font-size:90pt;
+                  text-shadow: 1px 5px rgba(165, 221, 253, 0.589);
+
+                  
+                  animation-name: f;
+                  animation-duration: 3s;
+                      }@keyframes f{
+                        from{ opacity: 0;}
+                        to {opacity: 1;}
+                        
+                }
+               .tagl{
+                position: absolute;
+                opacity: 1;
+                left: 20.6cm;
+                top: 21.6cm;
+                color: white;
+                font-size:  22pt;
+                
+                
+                animation-name: ffff;
+                animation-duration: 3s;
+                    }@keyframes ffff{
+                      from{ opacity: 0;}
+                      to {opacity: 1;}
+                      
+              }
+              .imagestuff{
+
+height: 37cm;
+              }
+
+.reg{
+  position: absolute;
+  opacity: 1;
+  left: 20.8cm;
+  top: 33.18cm;
+  color: white;
+  font-size:  22pt;
+  
+  
+  animation-name: fffff;
+  animation-duration: 3s;
+      }@keyframes fffff{
+        from{ opacity: 0;}
+        to {opacity: 1;}
+        
+}
+.to{
+  position: absolute;
+  opacity: 1;
+  left: 24.3cm;
+  top: 32.6cm;
+  color: white;
+  font-size:  27pt;
+  
+  
+  animation-name: ffffff;
+  animation-duration: 3s;
+      }@keyframes ffffff{
+        from{ opacity: 0;}
+        to {opacity: 1;}
+      }
+
+.reg:hover{
+
+text-decoration: none;
+color: white;
+
+
+
+
+}
+.reg:visited{
+
+  text-decoration: none;
+  color: white;
+  font-size: 22pt;
+  
+  
+}
+.footer{
+
+position:absolute;
+width:100%;
+top: 37cm;
+height: 5cm;
+background-color: #005e80ab;
+ }
+ .c2{
+
+  
+  text-decoration: none;
+  color: white;
+  font-size: 22pt;
+  text-align: center;
+
+
+
+
+
+ }
+ 
+
+
+
+
+             
+              
+
+
+
+
+
+
+
+               
+                
